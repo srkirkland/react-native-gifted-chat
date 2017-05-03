@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Animated,
-  InteractionManager,
   Platform,
   StyleSheet,
   View,
@@ -19,6 +18,7 @@ import MessageText from './MessageText';
 import Composer from './Composer';
 import Day from './Day';
 import InputToolbar from './InputToolbar';
+import InteractionManager from './GiftedChatInteractionManager';
 import LoadEarlier from './LoadEarlier';
 import Message from './Message';
 import MessageContainer from './MessageContainer';
